@@ -5,8 +5,10 @@ var margin = {
     left: 60,
     right: 20
 };
-var width = 800;
-var height = 800;
+var w = window.innerWidth;
+var h = window.innerHeight;
+var width = w - 200;
+var height = h - 200;
 var dataset;
 var parseTime = d3.timeParse("%Y-%m-%d");
 var formatTime = d3.timeFormat("%B %Y");
